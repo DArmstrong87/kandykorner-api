@@ -1,0 +1,266 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Ford",
+            "address": "93325 Moen Ford",
+            "sqFt": 1080,
+            "accessible": false
+        },
+        {
+            "id": 2,
+            "name": "Luella",
+            "address": "963 Abdul Turnpike",
+            "sqFt": 800,
+            "accessible": false
+        },
+        {
+            "id": 3,
+            "name": "Loren",
+            "address": "85591 Gonzalo Summit",
+            "sqFt": 2000,
+            "accessible": true
+        },
+        {
+            "id": 4,
+            "name": "Kiana",
+            "address": "988 Nikolaus Flat",
+            "sqFt": 1567,
+            "accessible": true
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Reese's Peanut Butter Cups",
+            "categoryId": 2,
+            "price": 2.50
+        },
+        {
+            "id": 2,
+            "name": "Starburst",
+            "categoryId": 9,
+            "price": 1.75
+        },
+        {
+            "id": 3,
+            "name": "Lifesavers",
+            "categoryId": 1,
+            "price": 1.50
+        },
+        {
+            "id": 4,
+            "name": "Gummy Bears",
+            "categoryId": 3,
+            "price": 2.25
+        },
+        {
+            "id": 5,
+            "name": "Fruit Stripe Gum",
+            "categoryId": 4,
+            "price": 1.00
+        },
+        {
+            "id": 6,
+            "name": "Red Rope Licorice",
+            "categoryId": 5,
+            "price": 2.00
+        },
+        {
+            "id": 7,
+            "name": "Coffee Rio",
+            "categoryId": 6,
+            "price": 2.50
+        },
+        {
+            "id": 8,
+            "name": "Warheads",
+            "categoryId": 7,
+            "price": 2.85
+        },
+        {
+            "id": 9,
+            "name": "Tootsie Pop",
+            "categoryId": 8,
+            "price": 0.25
+        },
+        {
+            "id": 10,
+            "name": "Cotton Candy",
+            "categoryId": 9,
+            "price": 3.50
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Kristy Batz",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Florida Jenkins",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Susie Cummerata",
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Kiley Deckow",
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "name": "Dallas Tromp",
+            "locationId": 3
+        },
+        {
+            "id": 6,
+            "name": "Delphia Wilkinson",
+            "locationId": 3
+        },
+        {
+            "id": 7,
+            "name": "Verlie Dickens",
+            "locationId": 4
+        },
+        {
+            "id": 8,
+            "name": "Terry (put it in reverse) Oswald",
+            "locationId": 4
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "catergory": "Hard"
+        }, 
+        {
+            "id": 2,
+            "catergory": "Chocolate"
+        }, 
+        {
+            "id": 3,
+            "catergory": "Gummy"
+        },
+        {
+            "id": 4,
+            "catergory": "Bubble gum"
+        },
+        {
+            "id": 5,
+            "catergory": "Licorice"
+        },
+        {
+            "id": 6,
+            "catergory": "Caramel"
+        },
+        {
+            "id": 7,
+            "catergory": "Sour"
+        },
+        {
+            "id": 8,
+            "catergory": "Lollipop"
+        },
+        {
+            "id": 9,
+            "catergory": "Chews/Soft"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Roscoe Pollich"
+        },
+        {
+            "id": 2,
+            "name": "Donald Hahn"
+        },
+        {
+            "id": 3,
+            "name": "Freddy Crona"
+        },
+        {
+            "id": 4,
+            "name": "Archibald Schaden"
+        },
+        {
+            "id": 5,
+            "name": "Brain Cummerata"
+        },
+        {
+            "id": 6,
+            "name": "Stevie Roosevelt"
+        },
+        {
+            "id": 7,
+            "name": "Blanche Grimes"
+        },
+        {
+            "id": 8,
+            "name": "Roma Bosco"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "productId": 1,
+            "employeeId": 1,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "productId": 4,
+            "employeeId": 2,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 3,
+            "customerId": 5,
+            "productId": 2,
+            "employeeId": 5,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 4,
+            "customerId": 2,
+            "productId": 3,
+            "employeeId": 4,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 5,
+            "customerId": 8,
+            "productId": 6,
+            "employeeId": 5,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 6,
+            "customerId": 3,
+            "productId": 2,
+            "employeeId": 1,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 7,
+            "customerId": 5,
+            "productId": 5,
+            "employeeId": 5,
+            "timestamp": 1630007284000
+        },
+        {
+            "id": 8,
+            "customerId": 7,
+            "productId": 6,
+            "employeeId": 4,
+            "timestamp": 1630007284000
+        }
+    ]
+}
